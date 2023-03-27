@@ -1,0 +1,137 @@
+.jumbotron {
+    margin-bottom: 0px;
+    color: salmon;
+    font-style: italic;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.igra div {
+    display: inline-block;
+    width: 25%;
+    background-color: #e9ecef;;
+    margin: 11px;
+    text-align: center;
+    color: black;
+    border: 2px solid black;
+}
+
+.igra div:hover {
+    background-color: goldenrod;
+}
+
+#a1,#c1 {
+    margin-left: 2%;
+    margin-right: 18%;
+}
+
+#dalje {
+    width: 7%;
+    font-size: small;
+    margin-right: 14%;
+    background-color: white;
+}
+
+#a2,#c2 {
+    margin-left: 5%;
+    margin-right: 35%;
+}
+
+#a3,#c3 {
+    margin-left: 7%;
+    margin-right: 31%;
+}
+
+#a4,#c4,#a,#c {
+    margin-left: 10%;
+    margin-right: 25%;
+}
+
+#c1 {
+    margin-left: 2%;
+    margin-right: 40%;
+}
+
+#konacno {
+    margin-left: 34%;
+    width: 30%;
+}
+
+.vremeRezultat {
+    background-color: lightblue;
+}
+
+.footer {
+    background-color: #e9ecef;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.resenje {
+    width: 100%;
+    text-align: center;
+    background-color: #e9ecef;
+    border: none;
+}
+
+.resenje:hover {
+    background-color: goldenrod;
+}
+
+#igrac1Ime {
+    color: blue;
+    border-right: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#igrac1Poeni {
+    color: blue;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#igrac2Ime {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#igrac2Poeni {
+    color: red;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.vreme {
+    font-size: 20px;
+    font-weight: bold; 
+    margin-top: 20%; 
+}
+
+#potez,#ukupnoVreme {
+    font-size: 20px;
+    font-weight: bold;   
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .prozor {
+    margin-top: 20px;
+    display: none;
+}
+
+.alert{
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+}
